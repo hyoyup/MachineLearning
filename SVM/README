@@ -1,0 +1,22 @@
+README
+
+Run in Command-line:
+	python svm.py
+
+LearningRate: 0.01
+C for regularization: 10
+Number of iterations for training: 1000
+
+
+
+
+- One concern about visualization, specifically drawing the line between the data points.
+
+- As commented in svm.py(line:179), idea was :
+	Given sepal_len, output sepal_wid
+
+	using w^T*x + b = 1, solve for f(sepal_len) = sepal_wid
+	
+	So, 
+	
+	f(sep_len) = (-b - w[3]*pet_wid_avg - w[2]*pet_len_avg - sep_len*w[0]) / w[1] - 1

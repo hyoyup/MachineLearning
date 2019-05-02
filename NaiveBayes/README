@@ -1,0 +1,19 @@
+README
+
+how to run:
+	python naivebayes.py [default=700, 50, 100, 400]
+
+
+Results are following: 
+
+$ python naivebayes.py
+Accuracy with training set of train-features.txt : 0.980769
+
+$ python naivebayes.py 50
+Accuracy with training set of train-features-50.txt : 0.542308
+
+$ python naivebayes.py 100
+Accuracy with training set of train-features-100.txt : 0.915385
+
+$ python naivebayes.py 400
+Accuracy with training set of train-features-400.txt : 0.957692

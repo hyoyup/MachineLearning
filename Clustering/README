@@ -1,0 +1,8 @@
+README
+
+Run in Command-line:
+	python clustering.py
+
+- Each new run will have different train/test set data
+- Data points on each cluster is differentiated with its plotting color (blue vs red)
+- Linear Regression is performed for each cluster and the results are combined to be used for prediction
