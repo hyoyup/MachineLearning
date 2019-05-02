@@ -1,0 +1,8 @@
+README
+
+nn1.py
+  training of x/y 
+  
+nn2.py
+  image recognition for digit numbers using tensorflow
+  this program needs 4 unzipped data files in the root folder
